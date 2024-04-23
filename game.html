@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="game_res.css">
+</head>
+
+<body>
+    <div class="game-title">
+        <center>
+            <h1>Rock, Paper, Sessior</h1>
+        </center>
+    </div>
+
+    <div class="game-display">
+        <div class="user">
+            <div class="tag">
+                <p>You</p>
+            </div>
+            <div class="user-box">
+                <div id="user-img"></div>
+            </div>
+        </div>
+        <div class="vs">
+            <p>VS</p>
+        </div>
+        <div class="comp">
+            <div class="tag">
+                <p>AI</p>
+            </div>
+            <div class="comp-box">
+                <div id="comp-img"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="game-btn">
+        <button class="choice" id="rock"></button>
+        <button class="choice" id="paper"></button>
+        <button class="choice" id="scissors"></button>
+    </div>
+
+    <div class="game-res">
+        <div class="game-score">
+            <p>You&nbsp;&nbsp;<span id="user-score">0</span></p>
+            <p>AI&nbsp;&nbsp;<span id="comp-score">0</span></p>
+        </div>
+
+        <div class="game-alert">
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <div class="restart-game">
+        <center><button id="restart">Restart</button></center>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
