@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+    .game-display {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .user, .comp {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .user, .comp {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .user, .comp {
+        height: 180px;
+        width: 160px;
+    }
+
+    #user-img, #comp-img {
+        height: 120px;
+        width: 120px;
+        margin: 4.5%;
+    }
+}
