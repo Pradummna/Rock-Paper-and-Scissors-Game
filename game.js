@@ -23,11 +23,11 @@ choiceBtn.forEach((choice) => {
 const showUserChoice = (userChoice) => {
     let imgPath = '';
     if (userChoice === 'rock') {
-        imgPath = '../game1/r.jpg';
+        imgPath = '../img/r.jpg';
     } else if (userChoice === 'paper') {
-        imgPath = '../game1/p.jpg';
+        imgPath = '../img/p.jpg';
     } else {
-        imgPath = '../game1/s.jpg';
+        imgPath = '../img/s.jpg';
     }
     showUserImg.style.backgroundImage = 'url(' + imgPath + ')';
     setUserBg();
@@ -38,16 +38,16 @@ const showAiChoice = (genAiChoice) => {
     setTimeout(() => {
         let imgPath = '';
         if (genAiChoice === 'rock') {
-            imgPath = '../game1/r.jpg';
+            imgPath = '../img/r.jpg';
         } else if (genAiChoice === 'paper') {
-            imgPath = '../game1/p.jpg';
+            imgPath = '../img/p.jpg';
         } else {
-            imgPath = '../game1/s.jpg';
+            imgPath = '../img/s.jpg';
         }
         showAiImg.style.backgroundImage = 'url(' + imgPath + ')';
         setAiBg();
     }, 4000);
-    imgPath = '../game1/loading.gif';
+    imgPath = '../img/loading.gif';
     showAiImg.style.backgroundImage = 'url(' + imgPath + ')';
     setAiBg();
 };
