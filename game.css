@@ -78,21 +78,21 @@
 }
 
 #rock {
-    background: url('..img/r.jpg');
+    background: url('../img/r.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #paper {
-    background: url('..img/p.jpg');
+    background: url('../img/p.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #scissors {
-    background: url('..img/s.jpg');
+    background: url('../img/s.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
